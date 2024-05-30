@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://splendid-fenglisu-a4157b.netlify.app","http://localhost:3000", "http://localhost:3001"],
+    origin: ["https://splendid-fenglisu-a4157b.netlify.app","http://taskfloww.industrywaala.com","http://localhost:3000", "http://localhost:3001"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
